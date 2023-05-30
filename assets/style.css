@@ -1,0 +1,113 @@
+/* font-family: 'PT Sans Narrow', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+/* Colors */
+:root {
+
+--background: #D7F8FD;
+--annoucement: #BBE9F0;
+--navbar: #FFFFFF; 
+/* Navbar cuando no hay posicionamiento debe hacerse transparente al 50% */
+--text: #000;   
+--text1: #FFFFFF;
+--button: #C0C0C0;
+--button-checkout: #6F6F6F;
+/* La card con la descripcion del producto debe ser transparente al 41%*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0; 
+    height: 90px;
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+/* Navbar */
+
+.navbar-wrap {
+    position: relative;
+}
+
+.navbar-top , .navbar-bottom {
+    display: flex;
+}
+
+.navbar-top {
+    display: flex;
+    background: var(--annoucement);
+    width: 1280px;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+}
+
+.navbar-top p {
+    display: flex;
+    color: var(--text);
+    text-transform: uppercase;
+    font-size: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.navbar-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: 1280px;
+    border-color: black;
+    border-style: dashed; 
+    /* para poder tener una referencia */
+}
+
+.navbar-list  {    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.navbar-link a {
+    color: var(--text);
+    font-weight: bold;
+}
+
+.logo {
+    width: 80px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+.contact-us img {
+    width: 40px;
+}
+
+.login img {
+    width: 40px;
+}
+
+.cart img {
+    width: 40px;
+}

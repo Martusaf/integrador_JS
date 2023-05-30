@@ -37,7 +37,7 @@ header {
 
 /* Navbar */
 
-.navbar-wrap {
+#navbar-wrap {
     position: relative;
 }
 
@@ -68,7 +68,7 @@ header {
     align-items: center;
     justify-content: space-between;
     height: 70px;
-    width: 1280px;
+    /* width: 1280px; */
     border-color: black;
     border-style: dashed; 
     /* para poder tener una referencia */

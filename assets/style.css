@@ -43,15 +43,20 @@ header {
 
 .navbar-top , .navbar-bottom {
     display: flex;
+    max-width: 1280px;
 }
 
-.navbar-top {
+
+.navbar-top p {
     display: flex;
     background: var(--annoucement);
     width: 1280px;
     align-items: center;
     justify-content: center;
     height: 20px;
+    text-align: center;
+    color: var(--text);
+    font-size: 12px;
 }
 
 .navbar-top p {
@@ -59,8 +64,8 @@ header {
     color: var(--text);
     text-transform: uppercase;
     font-size: 10px;
+    padding: 10px 10px;
     text-align: center;
-    justify-content: center;
 }
 
 .navbar-bottom {
@@ -76,12 +81,11 @@ header {
 
 .navbar-list  {    
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
     gap: 10px;
     text-transform: uppercase;
     text-decoration: none;
     padding-left: 10px;
+    justify-content: center;
 }
 
 .navbar-link a {
@@ -91,6 +95,12 @@ header {
 
 .logo {
     width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+
 }
 
 .icons {
@@ -111,3 +121,5 @@ header {
 .cart img {
     width: 40px;
 }
+
+

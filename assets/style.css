@@ -84,7 +84,7 @@ header {
   .container img {
     height: 520px;
     padding: 0px;
-    width: 1280px;
+    width: 100%;
   }
   
 

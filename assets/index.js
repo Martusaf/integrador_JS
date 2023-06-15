@@ -60,8 +60,6 @@ nextBtn.addEventListener('click', () => {
     position = Math.min(position, 0);
     carouselInner.style.transform = `translateX(${position}px)`;
   });
-  
-
 
 
 

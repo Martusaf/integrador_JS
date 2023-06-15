@@ -77,7 +77,7 @@ header {
     background-size: fill;
     text-align: center;
     padding: 0px;
-    color: #fff;
+    /* color: #fff; */
     max-width: 1280px;
   }
 
@@ -89,31 +89,23 @@ header {
   
 
   /* Container productos */
-
-  .product-container-skin {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
   
-  .product-container-makeup {
+  .product-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
   }
 
-  .products {
+  .product {
     padding: 40px 0;
     background-color: #f9f9f9;
   }
   
-  .products h2 {
+  .product h2 {
     text-align: center;
     margin-bottom: 40px;
   }
@@ -149,6 +141,7 @@ header {
     text-decoration: none;
     transition: background-color 0.3s ease;
     border-radius: 1rem;
+    border-color: #EE90A3;
   }
   
   .product .btn:hover {

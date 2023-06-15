@@ -10,6 +10,7 @@
 /* Navbar cuando no hay posicionamiento debe hacerse transparente al 50% */
 --text: #000;   
 --text1: #FFFFFF;
+--text2: #EE90A3;
 --button: #C0C0C0;
 --button-checkout: #6F6F6F;
 /* La card con la descripcion del producto debe ser transparente al 41%*/
@@ -137,11 +138,12 @@ header {
     display: inline-block;
     background-color: #EE90A3;
     color: #fff;
-    padding: 12px 24px;
+    padding: 10px 20px;
     text-decoration: none;
     transition: background-color 0.3s ease;
     border-radius: 1rem;
     border-color: #EE90A3;
+    cursor: pointer;
   }
   
   .product .btn:hover {
@@ -149,5 +151,83 @@ header {
     color: #EE90A3;
   }
 
+  /* Categorias */
 
+  .categories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .category {
+    background-color: var(--text2);
+    text-transform: uppercase ;
+    color: var(--text1);
+    padding: 7px 7px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    border-color: white;
+    height: 32px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  .category:hover {
+    background-color: var(--background);
+    color: #EE90A3;
+  }
+
+  .btn-more {
+    background-color: var(--text2);
+    text-transform: uppercase ;
+    color: var(--text1);
+    padding: 7px 7px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    border-color: white;
+    height: 32px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  /* carousel */
+
+  .carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel-prev,
+  .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: #ee90a35b;
+    color: #fff;
+    text-decoration: none;
+    z-index: 1;
+  }
+  
+  .carousel-prev {
+    left: 10px;
+  }
+  
+  .carousel-next {
+    right: 10px;
+  }
   

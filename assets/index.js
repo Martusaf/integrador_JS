@@ -6,6 +6,7 @@ const prevBtn = carousel.querySelector('.carousel-prev');
 const nextBtn = carousel.querySelector('.carousel-next');
 const imgWidth = carouselInner.offsetWidth;
 
+
 let position = 0;
 
 
@@ -17,7 +18,7 @@ const {id, name, price, cardImg} = product;
         <h3>${name}</h3>
         <p>${price}$</p>
         <button class="btn" data-id="${id}" data-name="${name}" data-price="${price}" data-img="${cardImg}">
-        add to cart
+        ADD TO CART
         </button>
     </div>
   `
@@ -66,5 +67,15 @@ nextBtn.addEventListener('click', () => {
 const init = () => {
     renderProducts(productInfo);
 };
+
+const subscribeForm = document.getElementById("subscribe-form");
+
+subscribeForm.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    alert("You are suscribed!");
+    subscribeForm.reset();
+});
+
 
 init();

@@ -118,4 +118,14 @@ const productInfo = [
 		category: "accesories",
 		cardImg: "./img/necessaire.png",
     },
-]
+
+	{
+        id: 17,
+		name: "MAR | Cherry Bloom Candle",
+	    price: 30.00,
+		category: "accesories",
+		cardImg: "./img/candle.png",
+    },
+	
+];
+

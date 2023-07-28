@@ -53,7 +53,7 @@ const productInfo = [
 		name: "MAR | Glitter Splash",
 	    price: 30.00,
 		category: "body",
-		cardImg: "./img/bodyglow.png",
+		cardImg: "./img/Bodyglow.png",
     },
     {
         id: 9,

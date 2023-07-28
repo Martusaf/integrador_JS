@@ -48,13 +48,13 @@ const productInfo = [
 		category: "face",
 		cardImg: "./img/mascara.png",
     },
-    // {
-    //     id: 8,
-	// 	name: "MAR | Glitter Splash",
-	//     price: 30.00,
-	// 	category: "body",
-	// 	cardImg: "./img/bodyglow.png",
-    // },
+    {
+        id: 8,
+		name: "MAR | Glitter Splash",
+	    price: 30.00,
+		category: "body",
+		cardImg: "./img/bodyglow.png",
+    },
     {
         id: 9,
 		name: "MAR | Wipes",
